@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req: any, res: any) => res.json({
+app.get('/', (req, res) => res.json({
     nome: "Adolpho",
     cargo: "Engenheiro de Software"
 }));
