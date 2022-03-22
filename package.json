@@ -4,7 +4,7 @@
   "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,14 @@
   },
   "license": "MIT-0",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.22",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
   }
 }
